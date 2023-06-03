@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MapOption_Dialog</class>
+ <widget class="QDialog" name="MapOption_Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>355</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QPushButton" name="Grey_Level_Tran_Button">
+     <property name="text">
+      <string>Grey Level Transformation</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QPushButton" name="Power_Law_Tran_Button">
+     <property name="text">
+      <string>Power Law</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QPushButton" name="Digital_Negative_Button">
+     <property name="text">
+      <string>Digital Negative</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QPushButton" name="PieceWise_Tran_Button">
+     <property name="text">
+      <string>PieceWise Transformation</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QPushButton" name="Histogram_Stretch_Button">
+     <property name="text">
+      <string>Histogram Stretch</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QPushButton" name="Intensity_Level_Tran_Button">
+     <property name="text">
+      <string>Intensity Level Transformation</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="0">
+    <widget class="QPushButton" name="Histogram_Shrink_Button">
+     <property name="text">
+      <string>Histogram Shrink</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
